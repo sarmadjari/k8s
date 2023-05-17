@@ -1,4 +1,4 @@
-param spDisplayName string = 'AKS-ServicePrincipal' 
+param spDisplayName string = 'Test-AKS1' 
 
 resource spMain 'Microsoft.ManagedIdentity/userAssignedIdentities@2021-04-01' = {
   name: '${spDisplayName}-sp'
